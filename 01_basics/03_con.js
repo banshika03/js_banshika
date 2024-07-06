@@ -9,12 +9,14 @@ console.log(valueINnumber);
 "33abc" => NaN
  true=1; false=0;
 */
+
 // boolean to string and number
 let isLoggedIn =true
 console.log(typeof isLoggedIn)
 let xy=Number(isLoggedIn)
 console.log(typeof xy)
 console.log(xy)
+
 // string to boolean
 let ab=""
 console.log(ab);
@@ -22,6 +24,7 @@ console.log(typeof ab);
 let  bool = Boolean(ab)
 console.log(bool);
 console.log(typeof bool);
+
 //number to boolean
 let num=1
 console.log(num);
