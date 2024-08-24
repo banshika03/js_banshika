@@ -6,7 +6,7 @@ console.log(typeof valueINnumber);
 console.log(valueINnumber);
 
 /* "33" => 33
-"33abc" => NaN
+"33abc" => NaN(not a number)(a special type)
  true=1; false=0;
 */
 

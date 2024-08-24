@@ -9,3 +9,4 @@ accountcity="bengluru"
 let accountScope;
 console.log(accountId);
 console.table([accountId,accountEmail,password,accountcity,accountScope])
+console.log(typeof accountEmail);
