@@ -10,5 +10,5 @@ console.log(true > 1);
 console.log(true == 1);
 console.log(true >= 1);
 
-// ===
+// ===(checks datatype too) 
 console.log("2" === 2);

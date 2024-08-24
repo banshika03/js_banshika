@@ -37,6 +37,8 @@ let f=false
 let num=Number(f)
 console.log(num);
 console.log(typeof num);
+console.log(3+4*5);
+
 
 
 

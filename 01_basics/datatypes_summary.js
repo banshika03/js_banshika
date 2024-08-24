@@ -1,4 +1,4 @@
-/* primitive datatypes
+/* primitive datatypes(call by value)
 original datatypes
 7 types :
 1. string
@@ -13,7 +13,7 @@ const ID= Symbol('123')
 const anotherID= Symbol('123')
 console.log( ID==anotherID);
 
-//let bignumber=123456789062n
+let bignumber=123456789062n
 //console.log(typeof bignumber);
 
 //reference type(non primitive):DATATYPES WHO ARE  MADE UP OF MULTIPLE DATATYPES
@@ -53,3 +53,22 @@ Object - object */
  
 //types of memory
 //stack(primitive), heap(non prinitive)
+let myname="banshika"
+
+let anothername=myname
+anothername=myname
+
+console.log(myname);
+console.log(anothername);
+
+let userone={
+    email:"banshika@gmail.com"
+}
+
+let usertwo=userone
+
+usertwo.email="banshikabro@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
