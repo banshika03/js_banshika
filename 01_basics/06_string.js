@@ -1,14 +1,14 @@
-const name = "aman"
+const name = "banshika"
 const repoCount = 2
 
 // console.log(name + repoCount + " Value"); This looks very outdated way of using 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // This is somewhat considered as modern way as the code looks clean and nice.
 
-const gameName = new String('aman garg') //This si also the way of writing the strings 
-console.log(gameName); // The output here comes as [String: 'aman garg'] 
+const gameName = new String('banshika choithani') //This si also the way of writing the strings 
+console.log(gameName); // The output here comes as [String: 'banshika choithani'] 
 
-// Also when we write this in console, we see that the output comes as the same like String{'aman garg'} but on hovering also we see key pair relations of  each pair with its key as numbers like 0 for a then 1 for m, and it goes....1
+// Also when we write this in console, we see that the output comes as the same like String{'banshika choithani'} but on hovering also we see key pair relations of  each pair with its key as numbers like 0 for a then 1 for m, and it goes....1
 
 console.log(gameName[0]);  // ab jese key value pair hai wesa hi hai ab 0 pr a aajaega
 console.log(gameName.__proto__); //ab isse aap jese uski values dekh skte hi
