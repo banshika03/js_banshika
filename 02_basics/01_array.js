@@ -12,7 +12,7 @@ console.log(myarr[1]);
 //array methods
 //myarr.push(6)//adds up values in array
 //myarr.push(7)
-//myarr.pop()
+//myarr.pop()//removes a value of lats
 
 //myarr.unshift(9)//insert value in the starting and shift another values to the right
 //myarr.shift()//removezs the first value
